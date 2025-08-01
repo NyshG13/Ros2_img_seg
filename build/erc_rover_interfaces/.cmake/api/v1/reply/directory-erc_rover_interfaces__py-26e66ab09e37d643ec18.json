@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "erc_rover_interfaces__py",
+		"source" : "/home/naysha/erc_ws/build/erc_rover_interfaces/erc_rover_interfaces__py"
+	}
+}

@@ -1,0 +1,10 @@
+setup.py
+erc_rover_interfaces/__init__.py
+erc_rover_interfaces.egg-info/PKG-INFO
+erc_rover_interfaces.egg-info/SOURCES.txt
+erc_rover_interfaces.egg-info/dependency_links.txt
+erc_rover_interfaces.egg-info/top_level.txt
+erc_rover_interfaces/srv/__init__.py
+erc_rover_interfaces/srv/_get_depth.py
+erc_rover_interfaces/srv/_get_gps.py
+erc_rover_interfaces/srv/_get_yaw.py

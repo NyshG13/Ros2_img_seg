@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from erc_rover_interfaces/srv/GetYaw.srv
+// generated code does not contain a copyright notice
+
+
+module erc_rover_interfaces {
+  module srv {
+    struct GetYaw_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct GetYaw_Response {
+      double yaw_deg;
+    };
+  };
+};

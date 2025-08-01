@@ -1,0 +1,1 @@
+/home/naysha/erc_ws/build/erc_rover_interfaces/ament_cmake_core/erc_rover_interfacesConfig.cmake

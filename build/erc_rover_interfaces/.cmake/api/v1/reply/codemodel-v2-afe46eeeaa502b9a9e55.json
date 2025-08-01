@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-9da4efd54ced7d006426.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "erc_rover_interfaces__py",
+					"jsonFile" : "directory-erc_rover_interfaces__py-26e66ab09e37d643ec18.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/naysha/erc_ws/build/erc_rover_interfaces/erc_rover_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "erc_rover_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_erc_rover_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_erc_rover_interfaces_egg-c9494abb114ccbc076b4.json",
+					"name" : "ament_cmake_python_build_erc_rover_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_erc_rover_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_erc_rover_interfaces-fa25280853489b2a7bbf.json",
+					"name" : "ament_cmake_python_symlink_erc_rover_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "erc_rover_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-erc_rover_interfaces-2d9b83d708f1e9a7dbcb.json",
+					"name" : "erc_rover_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "erc_rover_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-erc_rover_interfaces__cpp-626e342807a4741414a8.json",
+					"name" : "erc_rover_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "erc_rover_interfaces__py::@6eab1a3f3dd3c2787f8b",
+					"jsonFile" : "target-erc_rover_interfaces__py-2770eabda9934812ea2f.json",
+					"name" : "erc_rover_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "erc_rover_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-erc_rover_interfaces__rosidl_generator_c-8a4fb3bff4ba6b2b4b40.json",
+					"name" : "erc_rover_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "erc_rover_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-erc_rover_interfaces__rosidl_generator_py-16a2fdfe7663eaeee02d.json",
+					"name" : "erc_rover_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "erc_rover_interfaces__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-erc_rover_interfaces__rosidl_generator_type_description-a206c11069c3315259c2.json",
+					"name" : "erc_rover_interfaces__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "erc_rover_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-erc_rover_interfaces__rosidl_typesupport_c-812d0365039b6a0a70ee.json",
+					"name" : "erc_rover_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "erc_rover_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-erc_rover_interfaces__rosidl_typesupport_cpp-2eff77c6ef8154438eab.json",
+					"name" : "erc_rover_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "erc_rover_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-erc_rover_interfaces__rosidl_typesupport_fastrtps_c-9be4a2a1f775bec0de39.json",
+					"name" : "erc_rover_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "erc_rover_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-erc_rover_interfaces__rosidl_typesupport_fastrtps_cpp-048b6b42794e2049eda6.json",
+					"name" : "erc_rover_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "erc_rover_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-erc_rover_interfaces__rosidl_typesupport_introspection_c-7f562bcd512ca123fb55.json",
+					"name" : "erc_rover_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "erc_rover_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-erc_rover_interfaces__rosidl_typesupport_introspection_cpp-6243ae097b831d528ddf.json",
+					"name" : "erc_rover_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "erc_rover_interfaces_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-erc_rover_interfaces_s__rosidl_typesupport_c-b86bfb8840989b86df61.json",
+					"name" : "erc_rover_interfaces_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "erc_rover_interfaces_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-erc_rover_interfaces_s__rosidl_typesupport_fastrtps_c-33221c02b67f4eeacdc9.json",
+					"name" : "erc_rover_interfaces_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "erc_rover_interfaces_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-erc_rover_interfaces_s__rosidl_typesupport_introspection_c-36d23939e93a3bd58e96.json",
+					"name" : "erc_rover_interfaces_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "erc_rover_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-erc_rover_interfaces_uninstall-6d9dd2f5fa076b65f997.json",
+					"name" : "erc_rover_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-d10dfe7c053392e886fb.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/naysha/erc_ws/build/erc_rover_interfaces",
+		"source" : "/home/naysha/erc_ws/src/erc_rover_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

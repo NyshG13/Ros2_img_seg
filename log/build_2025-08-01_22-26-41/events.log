@@ -1,0 +1,387 @@
+[0.000000] (-) TimerEvent: {}
+[0.000972] (-) JobUnselected: {'identifier': 'erc_rover'}
+[0.001067] (erc_rover_interfaces) JobQueued: {'identifier': 'erc_rover_interfaces', 'dependencies': OrderedDict()}
+[0.001129] (erc_rover_interfaces) JobStarted: {'identifier': 'erc_rover_interfaces'}
+[0.024511] (erc_rover_interfaces) JobProgress: {'identifier': 'erc_rover_interfaces', 'progress': 'cmake'}
+[0.025791] (erc_rover_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/naysha/erc_ws/src/erc_rover_interfaces', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/naysha/erc_ws/install/erc_rover_interfaces'], 'cwd': '/home/naysha/erc_ws/build/erc_rover_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'naysha', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/naysha/ros2_ws/install/final_pipeline_interfaces/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/libphidget22/lib:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/naysha', 'OLDPWD': '/home/naysha/erc_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2639', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/naysha/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'naysha', 'IGN_GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'naysha', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/naysha/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/naysha/.local/bin:/home/naysha/.local/bin', 'SESSION_MANAGER': 'local/nai:@/tmp/.ICE-unix/2595,unix/nai:/tmp/.ICE-unix/2595', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/0b480f2d_54d5_4500_8fb8_207389cbd1be', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.129', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/naysha/ros2_ws/install/final_pipeline:/home/naysha/ros2_ws/install/final_pipeline_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/naysha/erc_ws/build/erc_rover_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/naysha/ros2_ws/install/final_pipeline/lib/python3.12/site-packages:/home/naysha/ros2_ws/install/final_pipeline_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/naysha/ros2_ws/install/final_pipeline_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/naysha/ros2_ws/install/final_pipeline:/opt/ros/jazzy'}), 'shell': False}
+[0.099321] (-) TimerEvent: {}
+[0.138678] (erc_rover_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.199479] (-) TimerEvent: {}
+[0.223926] (erc_rover_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.247554] (erc_rover_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299629] (-) TimerEvent: {}
+[0.389765] (erc_rover_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.399789] (-) TimerEvent: {}
+[0.404231] (erc_rover_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.405183] (erc_rover_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.406431] (erc_rover_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.423047] (erc_rover_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.499965] (-) TimerEvent: {}
+[0.577109] (erc_rover_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.591692] (erc_rover_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.592239] (erc_rover_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.592982] (erc_rover_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.600085] (-) TimerEvent: {}
+[0.601013] (erc_rover_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.700204] (-) TimerEvent: {}
+[0.800551] (-) TimerEvent: {}
+[0.900927] (-) TimerEvent: {}
+[0.960865] (erc_rover_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.001116] (-) TimerEvent: {}
+[1.082155] (erc_rover_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.101284] (-) TimerEvent: {}
+[1.156286] (erc_rover_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[1.165951] (erc_rover_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.201434] (-) TimerEvent: {}
+[1.244582] (erc_rover_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.301615] (-) TimerEvent: {}
+[1.309074] (erc_rover_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[1.401833] (-) TimerEvent: {}
+[1.502221] (-) TimerEvent: {}
+[1.602518] (-) TimerEvent: {}
+[1.702802] (-) TimerEvent: {}
+[1.803139] (-) TimerEvent: {}
+[1.903451] (-) TimerEvent: {}
+[2.003998] (-) TimerEvent: {}
+[2.104336] (-) TimerEvent: {}
+[2.204733] (-) TimerEvent: {}
+[2.305113] (-) TimerEvent: {}
+[2.405507] (-) TimerEvent: {}
+[2.505818] (-) TimerEvent: {}
+[2.514047] (erc_rover_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[2.605998] (-) TimerEvent: {}
+[2.706377] (-) TimerEvent: {}
+[2.806838] (-) TimerEvent: {}
+[2.907309] (-) TimerEvent: {}
+[3.007712] (-) TimerEvent: {}
+[3.108238] (-) TimerEvent: {}
+[3.208610] (-) TimerEvent: {}
+[3.309008] (-) TimerEvent: {}
+[3.409379] (-) TimerEvent: {}
+[3.472639] (erc_rover_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.509548] (-) TimerEvent: {}
+[3.609856] (-) TimerEvent: {}
+[3.710206] (-) TimerEvent: {}
+[3.810589] (-) TimerEvent: {}
+[3.910965] (-) TimerEvent: {}
+[4.011331] (-) TimerEvent: {}
+[4.111713] (-) TimerEvent: {}
+[4.212081] (-) TimerEvent: {}
+[4.312454] (-) TimerEvent: {}
+[4.412824] (-) TimerEvent: {}
+[4.513194] (-) TimerEvent: {}
+[4.613578] (-) TimerEvent: {}
+[4.676828] (erc_rover_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.687474] (erc_rover_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[4.713773] (-) TimerEvent: {}
+[4.814126] (-) TimerEvent: {}
+[4.914434] (-) TimerEvent: {}
+[4.995063] (erc_rover_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[5.014613] (-) TimerEvent: {}
+[5.114994] (-) TimerEvent: {}
+[5.215319] (-) TimerEvent: {}
+[5.315713] (-) TimerEvent: {}
+[5.416118] (-) TimerEvent: {}
+[5.516498] (-) TimerEvent: {}
+[5.616819] (-) TimerEvent: {}
+[5.717302] (-) TimerEvent: {}
+[5.817707] (-) TimerEvent: {}
+[5.903062] (erc_rover_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[5.917893] (-) TimerEvent: {}
+[5.993055] (erc_rover_interfaces) StdoutLine: {'line': b'-- Configuring done (5.9s)\n'}
+[6.018068] (-) TimerEvent: {}
+[6.052399] (erc_rover_interfaces) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[6.068359] (erc_rover_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/naysha/erc_ws/build/erc_rover_interfaces\n'}
+[6.076853] (erc_rover_interfaces) CommandEnded: {'returncode': 0}
+[6.077230] (erc_rover_interfaces) JobProgress: {'identifier': 'erc_rover_interfaces', 'progress': 'build'}
+[6.077256] (erc_rover_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/naysha/erc_ws/build/erc_rover_interfaces', '--', '-j12', '-l12'], 'cwd': '/home/naysha/erc_ws/build/erc_rover_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'naysha', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/naysha/ros2_ws/install/final_pipeline_interfaces/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/libphidget22/lib:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/naysha', 'OLDPWD': '/home/naysha/erc_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2639', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/naysha/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'naysha', 'IGN_GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'naysha', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/naysha/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/naysha/.local/bin:/home/naysha/.local/bin', 'SESSION_MANAGER': 'local/nai:@/tmp/.ICE-unix/2595,unix/nai:/tmp/.ICE-unix/2595', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/0b480f2d_54d5_4500_8fb8_207389cbd1be', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.129', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/naysha/ros2_ws/install/final_pipeline:/home/naysha/ros2_ws/install/final_pipeline_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/naysha/erc_ws/build/erc_rover_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/naysha/ros2_ws/install/final_pipeline/lib/python3.12/site-packages:/home/naysha/ros2_ws/install/final_pipeline_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/naysha/ros2_ws/install/final_pipeline_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/naysha/ros2_ws/install/final_pipeline:/opt/ros/jazzy'}), 'shell': False}
+[6.118247] (-) TimerEvent: {}
+[6.165603] (erc_rover_interfaces) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[6.181600] (erc_rover_interfaces) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_symlink_erc_rover_interfaces\n'}
+[6.218356] (-) TimerEvent: {}
+[6.318723] (-) TimerEvent: {}
+[6.419063] (-) TimerEvent: {}
+[6.457721] (erc_rover_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[6.458868] (erc_rover_interfaces) StdoutLine: {'line': b'creating erc_rover_interfaces.egg-info\n'}
+[6.464475] (erc_rover_interfaces) StdoutLine: {'line': b'[  1%] Built target erc_rover_interfaces__rosidl_generator_type_description\n'}
+[6.486123] (erc_rover_interfaces) StdoutLine: {'line': b'writing erc_rover_interfaces.egg-info/PKG-INFO\n'}
+[6.486652] (erc_rover_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[6.486916] (erc_rover_interfaces) StdoutLine: {'line': b'writing dependency_links to erc_rover_interfaces.egg-info/dependency_links.txt\n'}
+[6.487124] (erc_rover_interfaces) StdoutLine: {'line': b'writing top-level names to erc_rover_interfaces.egg-info/top_level.txt\n'}
+[6.487396] (erc_rover_interfaces) StdoutLine: {'line': b"writing manifest file 'erc_rover_interfaces.egg-info/SOURCES.txt'\n"}
+[6.507124] (erc_rover_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[6.519207] (-) TimerEvent: {}
+[6.564427] (erc_rover_interfaces) StdoutLine: {'line': b"reading manifest file 'erc_rover_interfaces.egg-info/SOURCES.txt'\n"}
+[6.564971] (erc_rover_interfaces) StdoutLine: {'line': b"writing manifest file 'erc_rover_interfaces.egg-info/SOURCES.txt'\n"}
+[6.602299] (erc_rover_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_erc_rover_interfaces_egg\n'}
+[6.619347] (-) TimerEvent: {}
+[6.719795] (-) TimerEvent: {}
+[6.820228] (-) TimerEvent: {}
+[6.920702] (-) TimerEvent: {}
+[7.000583] (erc_rover_interfaces) StdoutLine: {'line': b'[  5%] Built target erc_rover_interfaces__cpp\n'}
+[7.020878] (-) TimerEvent: {}
+[7.085296] (erc_rover_interfaces) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/erc_rover_interfaces__rosidl_generator_c.dir/rosidl_generator_c/erc_rover_interfaces/srv/detail/get_gps__description.c.o\x1b[0m\n'}
+[7.086018] (erc_rover_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/erc_rover_interfaces__rosidl_generator_c.dir/rosidl_generator_c/erc_rover_interfaces/srv/detail/get_yaw__functions.c.o\x1b[0m\n'}
+[7.087792] (erc_rover_interfaces) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/erc_rover_interfaces__rosidl_generator_c.dir/rosidl_generator_c/erc_rover_interfaces/srv/detail/get_depth__type_support.c.o\x1b[0m\n'}
+[7.090038] (erc_rover_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/erc_rover_interfaces__rosidl_generator_c.dir/rosidl_generator_c/erc_rover_interfaces/srv/detail/get_depth__description.c.o\x1b[0m\n'}
+[7.090586] (erc_rover_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/erc_rover_interfaces__rosidl_generator_c.dir/rosidl_generator_c/erc_rover_interfaces/srv/detail/get_depth__functions.c.o\x1b[0m\n'}
+[7.091054] (erc_rover_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/erc_rover_interfaces__rosidl_generator_c.dir/rosidl_generator_c/erc_rover_interfaces/srv/detail/get_gps__functions.c.o\x1b[0m\n'}
+[7.091527] (erc_rover_interfaces) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/erc_rover_interfaces__rosidl_generator_c.dir/rosidl_generator_c/erc_rover_interfaces/srv/detail/get_yaw__description.c.o\x1b[0m\n'}
+[7.092070] (erc_rover_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/erc_rover_interfaces__rosidl_generator_c.dir/rosidl_generator_c/erc_rover_interfaces/srv/detail/get_gps__type_support.c.o\x1b[0m\n'}
+[7.093190] (erc_rover_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object CMakeFiles/erc_rover_interfaces__rosidl_generator_c.dir/rosidl_generator_c/erc_rover_interfaces/srv/detail/get_yaw__type_support.c.o\x1b[0m\n'}
+[7.120996] (-) TimerEvent: {}
+[7.221334] (-) TimerEvent: {}
+[7.274703] (erc_rover_interfaces) StdoutLine: {'line': b'[ 24%] \x1b[32m\x1b[1mLinking C shared library liberc_rover_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[7.321468] (-) TimerEvent: {}
+[7.336698] (erc_rover_interfaces) StdoutLine: {'line': b'[ 24%] Built target erc_rover_interfaces__rosidl_generator_c\n'}
+[7.356042] (erc_rover_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.358159] (erc_rover_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[7.358688] (erc_rover_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[7.358946] (erc_rover_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.362973] (erc_rover_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.363536] (erc_rover_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.421643] (-) TimerEvent: {}
+[7.522151] (-) TimerEvent: {}
+[7.622525] (-) TimerEvent: {}
+[7.722934] (-) TimerEvent: {}
+[7.767429] (erc_rover_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/erc_rover_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/erc_rover_interfaces/srv/get_yaw__type_support.cpp.o\x1b[0m\n'}
+[7.768193] (erc_rover_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/erc_rover_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/erc_rover_interfaces/srv/get_gps__type_support.cpp.o\x1b[0m\n'}
+[7.768345] (erc_rover_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/erc_rover_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/erc_rover_interfaces/srv/get_depth__type_support.cpp.o\x1b[0m\n'}
+[7.823091] (-) TimerEvent: {}
+[7.850929] (erc_rover_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX shared library liberc_rover_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[7.876286] (erc_rover_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object CMakeFiles/erc_rover_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/erc_rover_interfaces/srv/detail/get_gps__type_support.c.o\x1b[0m\n'}
+[7.877668] (erc_rover_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object CMakeFiles/erc_rover_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/erc_rover_interfaces/srv/detail/get_yaw__type_support.c.o\x1b[0m\n'}
+[7.878501] (erc_rover_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/erc_rover_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/erc_rover_interfaces/srv/detail/get_depth__type_support.c.o\x1b[0m\n'}
+[7.907132] (erc_rover_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/erc_rover_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/erc_rover_interfaces/srv/detail/get_yaw__type_support.cpp.o\x1b[0m\n'}
+[7.907579] (erc_rover_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/erc_rover_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/erc_rover_interfaces/srv/detail/get_depth__type_support.cpp.o\x1b[0m\n'}
+[7.907887] (erc_rover_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/erc_rover_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/erc_rover_interfaces/srv/detail/get_gps__type_support.cpp.o\x1b[0m\n'}
+[7.918824] (erc_rover_interfaces) StdoutLine: {'line': b'[ 53%] Built target erc_rover_interfaces__rosidl_typesupport_c\n'}
+[7.923213] (-) TimerEvent: {}
+[7.960802] (erc_rover_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking C shared library liberc_rover_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[7.991297] (erc_rover_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/erc_rover_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/erc_rover_interfaces/srv/get_gps__type_support.cpp.o\x1b[0m\n'}
+[7.991566] (erc_rover_interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/erc_rover_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/erc_rover_interfaces/srv/get_depth__type_support.cpp.o\x1b[0m\n'}
+[7.991824] (erc_rover_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/erc_rover_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/erc_rover_interfaces/srv/get_yaw__type_support.cpp.o\x1b[0m\n'}
+[8.009893] (erc_rover_interfaces) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/erc_rover_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/erc_rover_interfaces/srv/detail/get_depth__type_support_c.cpp.o\x1b[0m\n'}
+[8.014616] (erc_rover_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/erc_rover_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/erc_rover_interfaces/srv/detail/get_gps__type_support_c.cpp.o\x1b[0m\n'}
+[8.015162] (erc_rover_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/erc_rover_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/erc_rover_interfaces/srv/detail/get_yaw__type_support_c.cpp.o\x1b[0m\n'}
+[8.015357] (erc_rover_interfaces) StdoutLine: {'line': b'[ 66%] Built target erc_rover_interfaces__rosidl_typesupport_introspection_c\n'}
+[8.023754] (-) TimerEvent: {}
+[8.124164] (-) TimerEvent: {}
+[8.132558] (erc_rover_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/erc_rover_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/erc_rover_interfaces/srv/detail/dds_fastrtps/get_yaw__type_support.cpp.o\x1b[0m\n'}
+[8.139470] (erc_rover_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/erc_rover_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/erc_rover_interfaces/srv/detail/dds_fastrtps/get_depth__type_support.cpp.o\x1b[0m\n'}
+[8.141742] (erc_rover_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/erc_rover_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/erc_rover_interfaces/srv/detail/dds_fastrtps/get_gps__type_support.cpp.o\x1b[0m\n'}
+[8.224328] (-) TimerEvent: {}
+[8.324780] (-) TimerEvent: {}
+[8.425819] (-) TimerEvent: {}
+[8.526290] (-) TimerEvent: {}
+[8.627955] (-) TimerEvent: {}
+[8.704207] (erc_rover_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library liberc_rover_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[8.728104] (-) TimerEvent: {}
+[8.824778] (erc_rover_interfaces) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library liberc_rover_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[8.828222] (-) TimerEvent: {}
+[8.891991] (erc_rover_interfaces) StdoutLine: {'line': b'[ 75%] Built target erc_rover_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[8.927316] (erc_rover_interfaces) StdoutLine: {'line': b'[ 75%] Built target erc_rover_interfaces__rosidl_typesupport_cpp\n'}
+[8.928316] (-) TimerEvent: {}
+[9.011318] (erc_rover_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library liberc_rover_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[9.028446] (-) TimerEvent: {}
+[9.083827] (erc_rover_interfaces) StdoutLine: {'line': b'[ 77%] Built target erc_rover_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[9.128589] (-) TimerEvent: {}
+[9.225573] (erc_rover_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared library liberc_rover_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[9.228779] (-) TimerEvent: {}
+[9.324656] (erc_rover_interfaces) StdoutLine: {'line': b'[ 79%] Built target erc_rover_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[9.328865] (-) TimerEvent: {}
+[9.360557] (erc_rover_interfaces) StdoutLine: {'line': b'[ 79%] Built target erc_rover_interfaces\n'}
+[9.393026] (erc_rover_interfaces) StdoutLine: {'line': b'[ 81%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[9.429030] (-) TimerEvent: {}
+[9.529397] (-) TimerEvent: {}
+[9.629753] (-) TimerEvent: {}
+[9.730081] (-) TimerEvent: {}
+[9.830421] (-) TimerEvent: {}
+[9.930779] (-) TimerEvent: {}
+[10.031136] (-) TimerEvent: {}
+[10.131570] (-) TimerEvent: {}
+[10.131981] (erc_rover_interfaces) StdoutLine: {'line': b'[ 81%] Built target erc_rover_interfaces__py\n'}
+[10.169461] (erc_rover_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/erc_rover_interfaces__rosidl_generator_py.dir/rosidl_generator_py/erc_rover_interfaces/srv/_get_yaw_s.c.o\x1b[0m\n'}
+[10.169950] (erc_rover_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/erc_rover_interfaces__rosidl_generator_py.dir/rosidl_generator_py/erc_rover_interfaces/srv/_get_depth_s.c.o\x1b[0m\n'}
+[10.170894] (erc_rover_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/erc_rover_interfaces__rosidl_generator_py.dir/rosidl_generator_py/erc_rover_interfaces/srv/_get_gps_s.c.o\x1b[0m\n'}
+[10.231761] (-) TimerEvent: {}
+[10.332166] (-) TimerEvent: {}
+[10.391095] (erc_rover_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking C shared library liberc_rover_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[10.432363] (-) TimerEvent: {}
+[10.454140] (erc_rover_interfaces) StdoutLine: {'line': b'[ 88%] Built target erc_rover_interfaces__rosidl_generator_py\n'}
+[10.491417] (erc_rover_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/erc_rover_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/erc_rover_interfaces/_erc_rover_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[10.494764] (erc_rover_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/erc_rover_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/erc_rover_interfaces/_erc_rover_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[10.495590] (erc_rover_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/erc_rover_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/erc_rover_interfaces/_erc_rover_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[10.532603] (-) TimerEvent: {}
+[10.633020] (-) TimerEvent: {}
+[10.649869] (erc_rover_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/erc_rover_interfaces/erc_rover_interfaces_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[10.651755] (erc_rover_interfaces) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/erc_rover_interfaces/erc_rover_interfaces_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[10.652072] (erc_rover_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/erc_rover_interfaces/erc_rover_interfaces_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[10.688144] (erc_rover_interfaces) StdoutLine: {'line': b'[100%] Built target erc_rover_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[10.689163] (erc_rover_interfaces) StdoutLine: {'line': b'[100%] Built target erc_rover_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[10.690531] (erc_rover_interfaces) StdoutLine: {'line': b'[100%] Built target erc_rover_interfaces_s__rosidl_typesupport_c\n'}
+[10.704585] (erc_rover_interfaces) CommandEnded: {'returncode': 0}
+[10.705688] (erc_rover_interfaces) JobProgress: {'identifier': 'erc_rover_interfaces', 'progress': 'install'}
+[10.720533] (erc_rover_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/naysha/erc_ws/build/erc_rover_interfaces'], 'cwd': '/home/naysha/erc_ws/build/erc_rover_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'naysha', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/naysha/ros2_ws/install/final_pipeline_interfaces/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/libphidget22/lib:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/naysha', 'OLDPWD': '/home/naysha/erc_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2639', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/naysha/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'naysha', 'IGN_GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'naysha', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/naysha/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/naysha/.local/bin:/home/naysha/.local/bin', 'SESSION_MANAGER': 'local/nai:@/tmp/.ICE-unix/2595,unix/nai:/tmp/.ICE-unix/2595', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/0b480f2d_54d5_4500_8fb8_207389cbd1be', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.129', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/naysha/ros2_ws/install/final_pipeline:/home/naysha/ros2_ws/install/final_pipeline_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/naysha/erc_ws/build/erc_rover_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/naysha/ros2_ws/install/final_pipeline/lib/python3.12/site-packages:/home/naysha/ros2_ws/install/final_pipeline_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/naysha/ros2_ws/install/final_pipeline_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/naysha/ros2_ws/install/final_pipeline:/opt/ros/jazzy'}), 'shell': False}
+[10.733290] (erc_rover_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.733578] (-) TimerEvent: {}
+[10.734267] (erc_rover_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[10.734606] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/share/ament_index/resource_index/rosidl_interfaces/erc_rover_interfaces\n'}
+[10.748838] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/share/erc_rover_interfaces/srv/GetDepth.json\n'}
+[10.762874] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/share/erc_rover_interfaces/srv/GetGPS.json\n'}
+[10.776173] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/share/erc_rover_interfaces/srv/GetYaw.json\n'}
+[10.789811] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/include/erc_rover_interfaces/erc_rover_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[10.803194] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/include/erc_rover_interfaces/erc_rover_interfaces/srv/detail/get_depth__functions.h\n'}
+[10.815875] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/include/erc_rover_interfaces/erc_rover_interfaces/srv/detail/get_depth__struct.h\n'}
+[10.827997] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/include/erc_rover_interfaces/erc_rover_interfaces/srv/detail/get_depth__type_support.h\n'}
+[10.833775] (-) TimerEvent: {}
+[10.839652] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/include/erc_rover_interfaces/erc_rover_interfaces/srv/detail/get_gps__functions.h\n'}
+[10.850850] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/include/erc_rover_interfaces/erc_rover_interfaces/srv/detail/get_gps__struct.h\n'}
+[10.861683] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/include/erc_rover_interfaces/erc_rover_interfaces/srv/detail/get_gps__type_support.h\n'}
+[10.872933] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/include/erc_rover_interfaces/erc_rover_interfaces/srv/detail/get_yaw__functions.h\n'}
+[10.886712] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/include/erc_rover_interfaces/erc_rover_interfaces/srv/detail/get_yaw__struct.h\n'}
+[10.899968] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/include/erc_rover_interfaces/erc_rover_interfaces/srv/detail/get_yaw__type_support.h\n'}
+[10.912522] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/include/erc_rover_interfaces/erc_rover_interfaces/srv/get_depth.h\n'}
+[10.926384] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/include/erc_rover_interfaces/erc_rover_interfaces/srv/get_gps.h\n'}
+[10.933955] (-) TimerEvent: {}
+[10.941583] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/include/erc_rover_interfaces/erc_rover_interfaces/srv/get_yaw.h\n'}
+[10.958194] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/share/erc_rover_interfaces/environment/library_path.sh\n'}
+[10.974333] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/share/erc_rover_interfaces/environment/library_path.dsv\n'}
+[10.987066] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/include/erc_rover_interfaces/erc_rover_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[10.999818] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/include/erc_rover_interfaces/erc_rover_interfaces/srv/detail/get_depth__rosidl_typesupport_fastrtps_c.h\n'}
+[11.013290] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/include/erc_rover_interfaces/erc_rover_interfaces/srv/detail/get_gps__rosidl_typesupport_fastrtps_c.h\n'}
+[11.027933] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/include/erc_rover_interfaces/erc_rover_interfaces/srv/detail/get_yaw__rosidl_typesupport_fastrtps_c.h\n'}
+[11.034065] (-) TimerEvent: {}
+[11.041908] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/include/erc_rover_interfaces/erc_rover_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[11.055997] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/include/erc_rover_interfaces/erc_rover_interfaces/srv/detail/get_depth__rosidl_typesupport_introspection_c.h\n'}
+[11.069075] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/include/erc_rover_interfaces/erc_rover_interfaces/srv/detail/get_gps__rosidl_typesupport_introspection_c.h\n'}
+[11.081539] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/include/erc_rover_interfaces/erc_rover_interfaces/srv/detail/get_yaw__rosidl_typesupport_introspection_c.h\n'}
+[11.097855] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/include/erc_rover_interfaces/erc_rover_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[11.110577] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/include/erc_rover_interfaces/erc_rover_interfaces/srv/detail/get_depth__builder.hpp\n'}
+[11.125132] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/include/erc_rover_interfaces/erc_rover_interfaces/srv/detail/get_depth__struct.hpp\n'}
+[11.134194] (-) TimerEvent: {}
+[11.138074] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/include/erc_rover_interfaces/erc_rover_interfaces/srv/detail/get_depth__traits.hpp\n'}
+[11.154399] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/include/erc_rover_interfaces/erc_rover_interfaces/srv/detail/get_depth__type_support.hpp\n'}
+[11.168022] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/include/erc_rover_interfaces/erc_rover_interfaces/srv/detail/get_gps__builder.hpp\n'}
+[11.183112] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/include/erc_rover_interfaces/erc_rover_interfaces/srv/detail/get_gps__struct.hpp\n'}
+[11.197235] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/include/erc_rover_interfaces/erc_rover_interfaces/srv/detail/get_gps__traits.hpp\n'}
+[11.210877] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/include/erc_rover_interfaces/erc_rover_interfaces/srv/detail/get_gps__type_support.hpp\n'}
+[11.224969] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/include/erc_rover_interfaces/erc_rover_interfaces/srv/detail/get_yaw__builder.hpp\n'}
+[11.234398] (-) TimerEvent: {}
+[11.238476] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/include/erc_rover_interfaces/erc_rover_interfaces/srv/detail/get_yaw__struct.hpp\n'}
+[11.253272] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/include/erc_rover_interfaces/erc_rover_interfaces/srv/detail/get_yaw__traits.hpp\n'}
+[11.265873] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/include/erc_rover_interfaces/erc_rover_interfaces/srv/detail/get_yaw__type_support.hpp\n'}
+[11.279949] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/include/erc_rover_interfaces/erc_rover_interfaces/srv/get_depth.hpp\n'}
+[11.293678] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/include/erc_rover_interfaces/erc_rover_interfaces/srv/get_gps.hpp\n'}
+[11.306841] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/include/erc_rover_interfaces/erc_rover_interfaces/srv/get_yaw.hpp\n'}
+[11.320241] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/include/erc_rover_interfaces/erc_rover_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[11.332857] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/include/erc_rover_interfaces/erc_rover_interfaces/srv/detail/get_depth__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.334549] (-) TimerEvent: {}
+[11.349517] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/include/erc_rover_interfaces/erc_rover_interfaces/srv/detail/get_gps__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.363536] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/include/erc_rover_interfaces/erc_rover_interfaces/srv/detail/get_yaw__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.377534] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/include/erc_rover_interfaces/erc_rover_interfaces/srv/detail/get_depth__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.390992] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/include/erc_rover_interfaces/erc_rover_interfaces/srv/detail/get_gps__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.404013] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/include/erc_rover_interfaces/erc_rover_interfaces/srv/detail/get_yaw__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.416887] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/share/erc_rover_interfaces/environment/pythonpath.sh\n'}
+[11.429322] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/share/erc_rover_interfaces/environment/pythonpath.dsv\n'}
+[11.434749] (-) TimerEvent: {}
+[11.444353] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/lib/python3.12/site-packages/erc_rover_interfaces-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[11.458013] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/lib/python3.12/site-packages/erc_rover_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[11.472458] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/lib/python3.12/site-packages/erc_rover_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[11.486475] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/lib/python3.12/site-packages/erc_rover_interfaces-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[11.500546] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/lib/python3.12/site-packages/erc_rover_interfaces/__init__.py\n'}
+[11.513355] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/lib/python3.12/site-packages/erc_rover_interfaces/_erc_rover_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[11.525802] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/lib/python3.12/site-packages/erc_rover_interfaces/_erc_rover_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[11.534893] (-) TimerEvent: {}
+[11.539751] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/lib/python3.12/site-packages/erc_rover_interfaces/_erc_rover_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[11.553722] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/lib/python3.12/site-packages/erc_rover_interfaces/erc_rover_interfaces_s__rosidl_typesupport_c.so\n'}
+[11.566588] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/lib/python3.12/site-packages/erc_rover_interfaces/erc_rover_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[11.579468] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/lib/python3.12/site-packages/erc_rover_interfaces/erc_rover_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[11.592684] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/lib/python3.12/site-packages/erc_rover_interfaces/srv/__init__.py\n'}
+[11.605705] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/lib/python3.12/site-packages/erc_rover_interfaces/srv/_get_depth.py\n'}
+[11.618352] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/lib/python3.12/site-packages/erc_rover_interfaces/srv/_get_depth_s.c\n'}
+[11.630966] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/lib/python3.12/site-packages/erc_rover_interfaces/srv/_get_gps.py\n'}
+[11.635044] (-) TimerEvent: {}
+[11.645237] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/lib/python3.12/site-packages/erc_rover_interfaces/srv/_get_gps_s.c\n'}
+[11.660742] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/lib/python3.12/site-packages/erc_rover_interfaces/srv/_get_yaw.py\n'}
+[11.672514] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/lib/python3.12/site-packages/erc_rover_interfaces/srv/_get_yaw_s.c\n'}
+[11.687188] (erc_rover_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/naysha/erc_ws/install/erc_rover_interfaces/lib/python3.12/site-packages/erc_rover_interfaces/erc_rover_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[11.687602] (erc_rover_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/naysha/erc_ws/install/erc_rover_interfaces/lib/python3.12/site-packages/erc_rover_interfaces/erc_rover_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[11.688112] (erc_rover_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/naysha/erc_ws/install/erc_rover_interfaces/lib/python3.12/site-packages/erc_rover_interfaces/erc_rover_interfaces_s__rosidl_typesupport_c.so\n'}
+[11.688463] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/share/erc_rover_interfaces/srv/GetDepth.idl\n'}
+[11.712017] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/share/erc_rover_interfaces/srv/GetGPS.idl\n'}
+[11.735232] (-) TimerEvent: {}
+[11.735838] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/share/erc_rover_interfaces/srv/GetYaw.idl\n'}
+[11.761740] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/share/erc_rover_interfaces/srv/GetDepth.srv\n'}
+[11.786945] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/share/erc_rover_interfaces/srv/GetGPS.srv\n'}
+[11.807891] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/share/erc_rover_interfaces/srv/GetYaw.srv\n'}
+[11.824119] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/share/ament_index/resource_index/package_run_dependencies/erc_rover_interfaces\n'}
+[11.835398] (-) TimerEvent: {}
+[11.838338] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/share/ament_index/resource_index/parent_prefix_path/erc_rover_interfaces\n'}
+[11.854650] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/share/erc_rover_interfaces/environment/ament_prefix_path.sh\n'}
+[11.868882] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/share/erc_rover_interfaces/environment/ament_prefix_path.dsv\n'}
+[11.882005] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/share/erc_rover_interfaces/environment/path.sh\n'}
+[11.894692] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/share/erc_rover_interfaces/environment/path.dsv\n'}
+[11.907608] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/share/erc_rover_interfaces/local_setup.bash\n'}
+[11.920003] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/share/erc_rover_interfaces/local_setup.sh\n'}
+[11.930466] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/share/erc_rover_interfaces/local_setup.zsh\n'}
+[11.935551] (-) TimerEvent: {}
+[11.940904] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/share/erc_rover_interfaces/local_setup.dsv\n'}
+[11.952419] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/share/erc_rover_interfaces/package.dsv\n'}
+[11.965773] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/share/ament_index/resource_index/packages/erc_rover_interfaces\n'}
+[11.980693] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/share/erc_rover_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[11.994316] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/share/erc_rover_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[12.007400] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/share/erc_rover_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[12.020451] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/share/erc_rover_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[12.033958] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/share/erc_rover_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[12.035829] (-) TimerEvent: {}
+[12.050579] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/share/erc_rover_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[12.065746] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/share/erc_rover_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[12.081631] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/share/erc_rover_interfaces/cmake/erc_rover_interfacesConfig.cmake\n'}
+[12.095476] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/share/erc_rover_interfaces/cmake/erc_rover_interfacesConfig-version.cmake\n'}
+[12.108619] (erc_rover_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/naysha/erc_ws/install/erc_rover_interfaces/share/erc_rover_interfaces/package.xml\n'}
+[12.121345] (erc_rover_interfaces) StdoutLine: {'line': b'-- Installing: /home/naysha/erc_ws/install/erc_rover_interfaces/lib/liberc_rover_interfaces__rosidl_generator_c.so\n'}
+[12.121915] (erc_rover_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/naysha/erc_ws/install/erc_rover_interfaces/lib/liberc_rover_interfaces__rosidl_generator_c.so" to ""\n'}
+[12.122119] (erc_rover_interfaces) StdoutLine: {'line': b'-- Installing: /home/naysha/erc_ws/install/erc_rover_interfaces/lib/liberc_rover_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[12.122383] (erc_rover_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/naysha/erc_ws/install/erc_rover_interfaces/lib/liberc_rover_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[12.122472] (erc_rover_interfaces) StdoutLine: {'line': b'-- Installing: /home/naysha/erc_ws/install/erc_rover_interfaces/lib/liberc_rover_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[12.122718] (erc_rover_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/naysha/erc_ws/install/erc_rover_interfaces/lib/liberc_rover_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[12.122861] (erc_rover_interfaces) StdoutLine: {'line': b'-- Installing: /home/naysha/erc_ws/install/erc_rover_interfaces/lib/liberc_rover_interfaces__rosidl_typesupport_c.so\n'}
+[12.123123] (erc_rover_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/naysha/erc_ws/install/erc_rover_interfaces/lib/liberc_rover_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[12.123204] (erc_rover_interfaces) StdoutLine: {'line': b'-- Installing: /home/naysha/erc_ws/install/erc_rover_interfaces/lib/liberc_rover_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[12.123847] (erc_rover_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/naysha/erc_ws/install/erc_rover_interfaces/lib/liberc_rover_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[12.123925] (erc_rover_interfaces) StdoutLine: {'line': b'-- Installing: /home/naysha/erc_ws/install/erc_rover_interfaces/lib/liberc_rover_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[12.124496] (erc_rover_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/naysha/erc_ws/install/erc_rover_interfaces/lib/liberc_rover_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[12.124643] (erc_rover_interfaces) StdoutLine: {'line': b'-- Installing: /home/naysha/erc_ws/install/erc_rover_interfaces/lib/liberc_rover_interfaces__rosidl_typesupport_cpp.so\n'}
+[12.125104] (erc_rover_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/naysha/erc_ws/install/erc_rover_interfaces/lib/liberc_rover_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[12.135924] (-) TimerEvent: {}
+[12.209091] (erc_rover_interfaces) StdoutLine: {'line': b"Listing '/home/naysha/erc_ws/install/erc_rover_interfaces/lib/python3.12/site-packages/erc_rover_interfaces'...\n"}
+[12.209345] (erc_rover_interfaces) StdoutLine: {'line': b"Compiling '/home/naysha/erc_ws/install/erc_rover_interfaces/lib/python3.12/site-packages/erc_rover_interfaces/__init__.py'...\n"}
+[12.209438] (erc_rover_interfaces) StdoutLine: {'line': b"Listing '/home/naysha/erc_ws/install/erc_rover_interfaces/lib/python3.12/site-packages/erc_rover_interfaces/srv'...\n"}
+[12.209515] (erc_rover_interfaces) StdoutLine: {'line': b"Compiling '/home/naysha/erc_ws/install/erc_rover_interfaces/lib/python3.12/site-packages/erc_rover_interfaces/srv/__init__.py'...\n"}
+[12.209587] (erc_rover_interfaces) StdoutLine: {'line': b"Compiling '/home/naysha/erc_ws/install/erc_rover_interfaces/lib/python3.12/site-packages/erc_rover_interfaces/srv/_get_depth.py'...\n"}
+[12.209654] (erc_rover_interfaces) StdoutLine: {'line': b"Compiling '/home/naysha/erc_ws/install/erc_rover_interfaces/lib/python3.12/site-packages/erc_rover_interfaces/srv/_get_gps.py'...\n"}
+[12.209737] (erc_rover_interfaces) StdoutLine: {'line': b"Compiling '/home/naysha/erc_ws/install/erc_rover_interfaces/lib/python3.12/site-packages/erc_rover_interfaces/srv/_get_yaw.py'...\n"}
+[12.217273] (erc_rover_interfaces) StdoutLine: {'line': b'-- Installing: /home/naysha/erc_ws/install/erc_rover_interfaces/lib/liberc_rover_interfaces__rosidl_generator_py.so\n'}
+[12.217633] (erc_rover_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/naysha/erc_ws/install/erc_rover_interfaces/lib/liberc_rover_interfaces__rosidl_generator_py.so" to ""\n'}
+[12.217881] (erc_rover_interfaces) StdoutLine: {'line': b'-- Installing: /home/naysha/erc_ws/install/erc_rover_interfaces/share/erc_rover_interfaces/cmake/export_erc_rover_interfaces__rosidl_generator_cExport.cmake\n'}
+[12.217979] (erc_rover_interfaces) StdoutLine: {'line': b'-- Installing: /home/naysha/erc_ws/install/erc_rover_interfaces/share/erc_rover_interfaces/cmake/export_erc_rover_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[12.218060] (erc_rover_interfaces) StdoutLine: {'line': b'-- Installing: /home/naysha/erc_ws/install/erc_rover_interfaces/share/erc_rover_interfaces/cmake/export_erc_rover_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[12.218237] (erc_rover_interfaces) StdoutLine: {'line': b'-- Installing: /home/naysha/erc_ws/install/erc_rover_interfaces/share/erc_rover_interfaces/cmake/export_erc_rover_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[12.218399] (erc_rover_interfaces) StdoutLine: {'line': b'-- Installing: /home/naysha/erc_ws/install/erc_rover_interfaces/share/erc_rover_interfaces/cmake/erc_rover_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[12.218480] (erc_rover_interfaces) StdoutLine: {'line': b'-- Installing: /home/naysha/erc_ws/install/erc_rover_interfaces/share/erc_rover_interfaces/cmake/erc_rover_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[12.218554] (erc_rover_interfaces) StdoutLine: {'line': b'-- Installing: /home/naysha/erc_ws/install/erc_rover_interfaces/share/erc_rover_interfaces/cmake/erc_rover_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[12.218626] (erc_rover_interfaces) StdoutLine: {'line': b'-- Installing: /home/naysha/erc_ws/install/erc_rover_interfaces/share/erc_rover_interfaces/cmake/erc_rover_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[12.218772] (erc_rover_interfaces) StdoutLine: {'line': b'-- Installing: /home/naysha/erc_ws/install/erc_rover_interfaces/share/erc_rover_interfaces/cmake/export_erc_rover_interfaces__rosidl_generator_cppExport.cmake\n'}
+[12.218860] (erc_rover_interfaces) StdoutLine: {'line': b'-- Installing: /home/naysha/erc_ws/install/erc_rover_interfaces/share/erc_rover_interfaces/cmake/export_erc_rover_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[12.218928] (erc_rover_interfaces) StdoutLine: {'line': b'-- Installing: /home/naysha/erc_ws/install/erc_rover_interfaces/share/erc_rover_interfaces/cmake/export_erc_rover_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[12.218995] (erc_rover_interfaces) StdoutLine: {'line': b'-- Installing: /home/naysha/erc_ws/install/erc_rover_interfaces/share/erc_rover_interfaces/cmake/erc_rover_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[12.219090] (erc_rover_interfaces) StdoutLine: {'line': b'-- Installing: /home/naysha/erc_ws/install/erc_rover_interfaces/share/erc_rover_interfaces/cmake/erc_rover_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[12.219214] (erc_rover_interfaces) StdoutLine: {'line': b'-- Installing: /home/naysha/erc_ws/install/erc_rover_interfaces/share/erc_rover_interfaces/cmake/erc_rover_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[12.219279] (erc_rover_interfaces) StdoutLine: {'line': b'-- Installing: /home/naysha/erc_ws/install/erc_rover_interfaces/share/erc_rover_interfaces/cmake/erc_rover_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[12.219336] (erc_rover_interfaces) StdoutLine: {'line': b'-- Installing: /home/naysha/erc_ws/install/erc_rover_interfaces/share/erc_rover_interfaces/cmake/export_erc_rover_interfaces__rosidl_generator_pyExport.cmake\n'}
+[12.219392] (erc_rover_interfaces) StdoutLine: {'line': b'-- Installing: /home/naysha/erc_ws/install/erc_rover_interfaces/share/erc_rover_interfaces/cmake/export_erc_rover_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[12.222246] (erc_rover_interfaces) CommandEnded: {'returncode': 0}
+[12.236156] (-) TimerEvent: {}
+[12.249161] (erc_rover_interfaces) JobEnded: {'identifier': 'erc_rover_interfaces', 'rc': 0}
+[12.250043] (-) EventReactorShutdown: {}

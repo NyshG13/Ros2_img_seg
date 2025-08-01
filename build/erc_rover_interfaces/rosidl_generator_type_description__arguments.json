@@ -1,0 +1,13 @@
+{
+  "package_name": "erc_rover_interfaces",
+  "output_dir": "/home/naysha/erc_ws/build/erc_rover_interfaces/rosidl_generator_type_description/erc_rover_interfaces",
+  "idl_tuples": [
+    "/home/naysha/erc_ws/build/erc_rover_interfaces/rosidl_adapter/erc_rover_interfaces:srv/GetDepth.idl",
+    "/home/naysha/erc_ws/build/erc_rover_interfaces/rosidl_adapter/erc_rover_interfaces:srv/GetGPS.idl",
+    "/home/naysha/erc_ws/build/erc_rover_interfaces/rosidl_adapter/erc_rover_interfaces:srv/GetYaw.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

@@ -1,0 +1,24 @@
+[1.390s] Invoking command in '/home/naysha/erc_ws/build/erc_rover': AMENT_PREFIX_PATH=/home/naysha/erc_ws/install/erc_rover_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/naysha/erc_ws/install/erc_rover_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/naysha/erc_ws/install/erc_rover_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/naysha/erc_ws/build/erc_rover/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/naysha/erc_ws/install/erc_rover/lib/python3.12/site-packages:/home/naysha/erc_ws/install/erc_rover_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/naysha/erc_ws/build/erc_rover/build --no-deps symlink_data
+[1.788s] running develop
+[2.014s] running egg_info
+[2.014s] creating erc_rover.egg-info
+[2.036s] writing erc_rover.egg-info/PKG-INFO
+[2.036s] writing dependency_links to erc_rover.egg-info/dependency_links.txt
+[2.036s] writing entry points to erc_rover.egg-info/entry_points.txt
+[2.036s] writing requirements to erc_rover.egg-info/requires.txt
+[2.036s] writing top-level names to erc_rover.egg-info/top_level.txt
+[2.036s] writing manifest file 'erc_rover.egg-info/SOURCES.txt'
+[2.079s] reading manifest file 'erc_rover.egg-info/SOURCES.txt'
+[2.079s] writing manifest file 'erc_rover.egg-info/SOURCES.txt'
+[2.101s] running build_ext
+[2.102s] Creating /home/naysha/erc_ws/install/erc_rover/lib/python3.12/site-packages/erc-rover.egg-link (link to .)
+[2.102s] Installing camera script to /home/naysha/erc_ws/install/erc_rover/lib/erc_rover
+[2.102s] Installing img_segmentation script to /home/naysha/erc_ws/install/erc_rover/lib/erc_rover
+[2.103s] Installing pipeline_node script to /home/naysha/erc_ws/install/erc_rover/lib/erc_rover
+[2.103s] Installing position script to /home/naysha/erc_ws/install/erc_rover/lib/erc_rover
+[2.103s] 
+[2.103s] Installed /home/naysha/erc_ws/build/erc_rover
+[2.103s] running symlink_data
+[2.103s] symbolically linking /home/naysha/erc_ws/build/erc_rover/package.xml -> /home/naysha/erc_ws/install/erc_rover/share/erc_rover
+[2.103s] creating /home/naysha/erc_ws/install/erc_rover/share/erc_rover/launch
+[2.146s] Invoked command in '/home/naysha/erc_ws/build/erc_rover' returned '0': AMENT_PREFIX_PATH=/home/naysha/erc_ws/install/erc_rover_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/naysha/erc_ws/install/erc_rover_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/naysha/erc_ws/install/erc_rover_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/naysha/erc_ws/build/erc_rover/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/naysha/erc_ws/install/erc_rover/lib/python3.12/site-packages:/home/naysha/erc_ws/install/erc_rover_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/naysha/erc_ws/build/erc_rover/build --no-deps symlink_data

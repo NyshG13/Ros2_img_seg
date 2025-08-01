@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/naysha/erc_ws/build/erc_rover_interfaces/rosidl_generator_py/erc_rover_interfaces/erc_rover_interfaces_s__rosidl_typesupport_introspection_c.so" "TARGETS" "erc_rover_interfaces_s__rosidl_typesupport_introspection_c" "DESTINATION" "lib/python3.12/site-packages/erc_rover_interfaces")

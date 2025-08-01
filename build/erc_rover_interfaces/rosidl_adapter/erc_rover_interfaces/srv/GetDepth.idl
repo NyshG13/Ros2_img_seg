@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from erc_rover_interfaces/srv/GetDepth.srv
+// generated code does not contain a copyright notice
+
+
+module erc_rover_interfaces {
+  module srv {
+    struct GetDepth_Request {
+      int32 pixel_x;
+
+      int32 pixel_y;
+    };
+    struct GetDepth_Response {
+      float depth;
+    };
+  };
+};
