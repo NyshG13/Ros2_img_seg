@@ -5,9 +5,7 @@ import cv2
 import numpy as np
 import supervision as sv
 import torch
-
-import sys
-sys.path.append('/home/naysha/erc_ws')
+from pathlib import Path
 
 # from PIL import Image
 from grounded_sam2.sam2.build_sam import build_sam2, build_sam2_video_predictor
@@ -141,8 +139,8 @@ class IncrementalObjectTracker:
     def __init__(
         self,
         grounding_model_id="IDEA-Research/grounding-dino-tiny",
-        sam2_model_cfg="/home/naysha/erc_ws/grounded_sam2/sam2/configs/sam2.1/sam2.1_hiera_l.yaml",
-        sam2_ckpt_path="/home/naysha/erc_ws/grounded_sam2/sam2/checkpoints/sam2.1_hiera_large.pt",
+        sam2_model_cfg="~/erc_ws/grounded_sam2/sam2/configs/sam2.1/sam2.1_hiera_l.yaml",
+        sam2_ckpt_path="~/erc_ws/grounded_sam2/sam2/checkpoints/sam2.1_hiera_large.pt",
         device="cuda",
         prompt_text="car.",
         detection_interval=20,
@@ -160,6 +158,9 @@ class IncrementalObjectTracker:
         self.device = device
         self.detection_interval = detection_interval
         self.prompt_text = prompt_text
+
+        self.sam2_model_cfg = Path(sam2_model_cfg).expanduser()
+        self.sam2_ckpt_path = Path(sam2_ckpt_path).expanduser()
 
         # Load models
         self.grounding_predictor = GroundingDinoPredictor(

@@ -77,8 +77,8 @@ Before installation, ensure you have ROS 2 and Python 3.10+ installed. Ensure yo
     
     ```
     # Create a new ROS 2 workspace
-    mkdir -p ~/erc_ws/src
-    cd ~/erc_ws/src
+    mkdir -p ~/erc_ws
+    cd ~/erc_ws
     
     # Clone this repository
     git clone https://github.com/NyshG13/Ros2_img_seg.git

@@ -1,5 +1,0 @@
-[console_scripts]
-camera = erc_rover.camera_integ:main
-img_segmentation = erc_rover.grounded_sam2_tracking_camera_with_continuous_id:main
-pipeline_node = erc_rover.new_pipeline:main
-position = erc_rover.position_data:main

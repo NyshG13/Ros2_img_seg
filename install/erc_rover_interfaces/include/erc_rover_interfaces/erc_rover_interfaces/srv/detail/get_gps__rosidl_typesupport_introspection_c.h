@@ -1,1 +1,0 @@
-/home/naysha/erc_ws/build/erc_rover_interfaces/rosidl_typesupport_introspection_c/erc_rover_interfaces/srv/detail/get_gps__rosidl_typesupport_introspection_c.h

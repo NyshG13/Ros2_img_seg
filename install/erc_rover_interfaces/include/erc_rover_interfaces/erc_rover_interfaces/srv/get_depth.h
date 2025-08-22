@@ -1,1 +1,0 @@
-/home/naysha/erc_ws/build/erc_rover_interfaces/rosidl_generator_c/erc_rover_interfaces/srv/get_depth.h

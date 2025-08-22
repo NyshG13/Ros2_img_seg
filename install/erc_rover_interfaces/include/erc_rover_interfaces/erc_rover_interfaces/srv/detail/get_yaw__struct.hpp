@@ -1,1 +1,0 @@
-/home/naysha/erc_ws/build/erc_rover_interfaces/rosidl_generator_cpp/erc_rover_interfaces/srv/detail/get_yaw__struct.hpp

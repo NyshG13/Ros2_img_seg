@@ -1,6 +1,0 @@
-source;share/erc_rover/hook/pythonpath.dsv
-source;share/erc_rover/hook/pythonpath.sh
-source;share/erc_rover/hook/ament_prefix_path.dsv
-source;share/erc_rover/hook/ament_prefix_path.sh
-source;../../build/erc_rover/share/erc_rover/hook/pythonpath_develop.dsv
-source;../../build/erc_rover/share/erc_rover/hook/pythonpath_develop.sh
